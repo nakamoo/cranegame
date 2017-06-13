@@ -72,7 +72,7 @@ In ``env.step()``, pass a command string:
 * f = ball 2; ボール（バスケ）
 * g = ball 3; ボール（サッカー）
 * h = Android mascot; アンドロイドマスコット
-* i = ball 3; 持ち上げられないボール（サッカー）
+* i = ball 4; 持ち上げられないボール（サッカー）
 
 ### Spawn code example
 ```

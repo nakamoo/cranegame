@@ -22,6 +22,7 @@ else:
     game_processes.append(
         # subprocess.Popen("open -a game_mac.app --args 5000 10 10 1 g", shell=True, stdout=subprocess.PIPE,
         subprocess.Popen("open -a game_mac.app --args 5000 10 10 1 i", shell=True, stdout=subprocess.PIPE,
+                         preexec_fn=os.setsid))
 
 time.sleep(7)
 
